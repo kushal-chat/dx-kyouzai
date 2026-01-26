@@ -1,0 +1,17 @@
+[project]
+name = "jp-kyouzai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ollama>=0.6.1",
+    "pdfminer>=20191125",
+    "qdrant-client>=1.16.2",
+    "unstructured[all-docs]>=0.18.27",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.12.0",
+]
