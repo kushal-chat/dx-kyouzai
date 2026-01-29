@@ -1,17 +1,22 @@
 [project]
-name = "jp-kyouzai"
+name = "dx-kyouzai"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "ollama>=0.6.1",
-    "pdfminer>=20191125",
-    "qdrant-client>=1.16.2",
-    "unstructured[all-docs]>=0.18.27",
+    "fastapi[standard]>=0.128.0",
+    "google-api-core>=2.29.0",
+    "google-cloud-documentai>=3.8.0",
+    "google-cloud-documentai-toolbox>=0.15.0a0",
+    "langchain>=1.2.7",
+    "langchain-google-vertexai>=3.2.1",
+    "langgraph>=1.0.7",
+    "pydantic>=2.12.5",
+    "vertexai>=1.43.0",
 ]
 
 [dependency-groups]
 dev = [
-    "black>=25.12.0",
+    "black>=26.1.0",
 ]
