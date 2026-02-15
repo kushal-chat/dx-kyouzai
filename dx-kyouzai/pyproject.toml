@@ -1,0 +1,19 @@
+[project]
+name = "dx-kyouzai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.128.2",
+    "google-cloud-aiplatform>=1.136.0",
+    "ipython>=9.10.0",
+    "langchain>=1.2.8",
+    "langchain-google-vertexai>=3.2.2",
+    "langgraph>=1.0.7",
+]
+
+[dependency-groups]
+dev = [
+    "black>=26.1.0",
+]
